@@ -9,11 +9,19 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Ronald_Object__c.Colour__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Truck__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>PBMTest__c-PBMTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ronald_Object__c-Ronald Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Truck__c-Truck Layout</layout>
@@ -34,9 +42,22 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Ronald_Object__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Truck__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Ronald_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Truck__c</tab>
         <visibility>DefaultOn</visibility>
