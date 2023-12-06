@@ -4,6 +4,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Gnanavi_Object__c.Size__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>PBMTest__c.TestPicklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -18,6 +23,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Gnanavi_Object__c-Gnanavi Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>PBMTest__c-PBMTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -27,6 +35,15 @@
         <layout>Truck__c-Truck Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Gnanavi_Object__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -54,6 +71,10 @@
         <object>Truck__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Gnanavi_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Ronald_Object__c</tab>
         <visibility>DefaultOn</visibility>
