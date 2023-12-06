@@ -4,6 +4,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Gnanavi_Object__c.Size__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>PBMTest__c.TestPicklist__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -13,12 +18,19 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Gnanavi_Object__c-Gnanavi Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>PBMTest__c-PBMTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Truck__c-Truck Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <tabVisibilities>
+        <tab>Gnanavi_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Truck__c</tab>
         <visibility>DefaultOn</visibility>
