@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TestPicklist__c</fullName>
+    <externalId>false</externalId>
+    <label>TestPicklist</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unity</fullName>
+                <default>false</default>
+                <label>Unity</label>
+            </value>
+            <value>
+                <fullName>Tirnity</fullName>
+                <default>false</default>
+                <label>Tirnity</label>
+            </value>
+            <value>
+                <fullName>Corby</fullName>
+                <default>false</default>
+                <label>Corby</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

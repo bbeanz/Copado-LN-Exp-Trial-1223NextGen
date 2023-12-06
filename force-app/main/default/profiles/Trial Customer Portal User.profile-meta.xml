@@ -8,6 +8,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>PBMTest__c.TestPicklist__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SB_Object__c.SB_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -16,6 +21,9 @@
         <field>Truck__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>PBMTest__c-PBMTest Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>SB_Object__c-SB Object Layout</layout>
     </layoutAssignments>
