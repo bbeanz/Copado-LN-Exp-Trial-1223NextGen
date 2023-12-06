@@ -4,9 +4,17 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>PBMTest__c.TestPicklist__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Truck__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>PBMTest__c-PBMTest Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Truck__c-Truck Layout</layout>
     </layoutAssignments>
