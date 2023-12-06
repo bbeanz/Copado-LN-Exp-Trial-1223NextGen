@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Debs__c</fullName>
+    <externalId>false</externalId>
+    <label>Debs</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Deb</fullName>
+                <default>false</default>
+                <label>Deb</label>
+            </value>
+            <value>
+                <fullName>Tupai</fullName>
+                <default>false</default>
+                <label>Tupai</label>
+            </value>
+            <value>
+                <fullName>Debasmita</fullName>
+                <default>false</default>
+                <label>Debasmita</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
