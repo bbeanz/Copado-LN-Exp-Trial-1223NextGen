@@ -13,6 +13,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>SB_Object__c.SB_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Truck__c.Type__c</field>
         <readable>false</readable>
@@ -24,11 +29,18 @@
         <layout>PBMTest__c-PBMTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SB_Object__c-SB Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Truck__c-Truck Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <tabVisibilities>
         <tab>Gnanavi_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SB_Object__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
